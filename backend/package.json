@@ -1,0 +1,50 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Travel Story App using the MERN stack. This app allows users to sign up, log in, and create personal travel stories with features like image uploads, and adding travel date.",
+  "main": "main.js",
+  "scripts": {
+    "dev": "nodemon main.js",
+    "start": "node main.js",
+    "format": "prettier --write .",
+    "lint": "eslint . ",
+    "lint:fix": "eslint . --fix ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abdou00/travel-story.git"
+  },
+  "keywords": [
+    "MERN",
+    "NodeJS",
+    "Express",
+    "MongoDB",
+    "Tailwind",
+    "CSS",
+    "React"
+  ],
+  "author": "Abdou00",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abdou00/travel-story/issues"
+  },
+  "homepage": "https://github.com/Abdou00/travel-story#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.8.2",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.1.7",
+    "react-scripts": "^5.0.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.15.0",
+    "eslint": "^9.15.0",
+    "globals": "^15.12.0",
+    "prettier": "^3.3.3"
+  }
+}
