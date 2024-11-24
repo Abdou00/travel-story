@@ -14,7 +14,7 @@ const Login = () => {
   const handleLogin = async (e) => {
     e.preventDefault()
 
-    if (!validateEmail) {
+    if (!validateEmail(email)) {
       setError('Please enter a valid email address')
       return
     }
